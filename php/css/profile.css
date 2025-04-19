@@ -1,0 +1,14 @@
+.container{
+  margin-top: 160px;
+    background: #f7f7ff;
+    /* margin-top:20px; */
+}
+
+
+  .corner-image {
+    position: absolute;
+    top: 25px;
+    right: 150px;
+    width: 100px;
+    height: 110px;
+  } 

@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+:root {
+    scroll-behavior: smooth;
+  }
+  
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: Inter;
+}
+.nav__bar{
+    font-family: Inter;
+    font-weight: 600;
+    height: 50px;
+    display: flex;
+    text-decoration: none;
+    background-color: #00C2FF;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    margin-top: 30px;
+    z-index: 999;
+}
+.nav__bar ul{
+    display: inline-flex;
+}
+.nav__bar ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.nav__icons{
+    color: aliceblue;
+}
+.nav__logo{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+
+.upper__menu{
+    height: 30px;
+    background-color: rgb(246, 249, 252);
+    padding: 5px 100px 5px 20px;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.upper__menu a{
+    color: #00C2FF;
+    font-family: Inter;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+
+
+
+.hero__section{
+    padding: 2%;
+    /* margin-top: 110px; */
+    padding-top: 60px;
+
+}
+
+.hero__section h1{
+    font-weight: 900;
+    text-align: center;
+    color: aliceblue;
+    font-size: 900%;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.hero__items{
+    display: flex;
+    justify-content: center;
+}
+
+.item__container{
+    margin-top: -80px;
+    transform: rotate(-30deg);
+    padding-right: 60px;
+    padding-top: 60px;
+}
+
+.item__container1{
+    margin-top: -80px;
+    transform: rotate(0);
+}
+
+.item__container2{
+    margin-top: -80px;
+    transform: rotate(30deg);
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.hero__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    height: 80px;
+}
+
+.hero__button button{
+    text-decoration: none;
+    background-color: #00C2FF;
+    border: none;
+    padding: 10px;
+    width: 20%;
+    border-radius: 40px;
+}
+.hero__button button a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 180%;
+}
+.hero__button button a i{
+    padding-right: 10%;
+}
+
